@@ -30,12 +30,9 @@ body {
     margin: 20px auto 0;
     display: flex;
     justify-content: flex-start;
-    /* Align options to the start */
     overflow-x: auto;
     white-space: nowrap;
-    /* Prevent options from breaking to the next line */
     border-bottom: 1px solid #ddd;
-    /* Add a bottom border for a continuous line effect */
 }
 
 .option {
@@ -45,7 +42,6 @@ body {
     color: #70757a;
     margin: 0 10px;
     border-bottom: 1px solid blue;
-    /* Add a bottom border for the options */
 }
 
 .option i {
@@ -196,4 +192,22 @@ h2 {
         display: block;
         margin-right: 20px;
     }
+}
+
+.front-end-options {
+    background-color: #fff;
+    padding: 10px;
+    max-width: 70%;
+    margin: 70px -80px 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.front-option {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #70757a;
+    margin: 0 10px;
+    border-bottom: 1px solid blue;
 }
