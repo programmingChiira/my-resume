@@ -115,7 +115,16 @@ h2 {
     padding: 5px 20px;
     display: flex;
     align-items: center;
-    width: 80%;
+    width: 50%;
+    margin: 20px auto 0;
+}
+
+.box {
+    padding: 5px 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 20%;
     margin: 20px auto 0;
 }
 
@@ -140,7 +149,7 @@ h2 {
 }
 
 .accordion {
-    max-width: 70%;
+    max-width: 90%;
 }
 
 .accordion-item {
@@ -150,7 +159,8 @@ h2 {
 
 .last-accordion {
     border-top: 1px solid #ddd;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    border-bottom: 1px solid #ddd;
 }
 
 .accordion-header {
