@@ -5,6 +5,10 @@
     font-family: 'Quicksand', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: white;
     margin: 0;
@@ -25,10 +29,13 @@ body {
     max-width: 70%;
     margin: 20px auto 0;
     display: flex;
-    justify-content: flex-start; /* Align options to the start */
+    justify-content: flex-start;
+    /* Align options to the start */
     overflow-x: auto;
-    white-space: nowrap; /* Prevent options from breaking to the next line */
-    border-bottom: 1px solid #ddd; /* Add a bottom border for a continuous line effect */
+    white-space: nowrap;
+    /* Prevent options from breaking to the next line */
+    border-bottom: 1px solid #ddd;
+    /* Add a bottom border for a continuous line effect */
 }
 
 .option {
@@ -37,19 +44,24 @@ body {
     text-decoration: none;
     color: #70757a;
     margin: 0 10px;
-    border-bottom: 1px solid blue; /* Add a bottom border for the options */
+    border-bottom: 1px solid blue;
+    /* Add a bottom border for the options */
 }
 
 .option i {
-    padding: 5px; /* Adjust padding for the icon */
+    padding: 5px;
+    /* Adjust padding for the icon */
     margin-right: 5px;
 }
 
 @media (max-width: 768px) {
     .search-options {
-        flex-wrap: nowrap; /* Prevent options from wrapping to the next line */
-        justify-content: flex-start; /* Align options to the start in mobile format */
-        overflow-x: scroll; /* Add horizontal scroll in mobile format */
+        flex-wrap: nowrap;
+        /* Prevent options from wrapping to the next line */
+        justify-content: flex-start;
+        /* Align options to the start in mobile format */
+        overflow-x: scroll;
+        /* Add horizontal scroll in mobile format */
     }
 
     .option {
@@ -172,4 +184,16 @@ h2 {
 .accordion-body {
     padding: 10px;
     display: none;
+}
+
+@media (max-width: 768px) {
+    .contact-info-ul {
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .contact-info-li {
+        display: block;
+        margin-right: 20px;
+    }
 }
