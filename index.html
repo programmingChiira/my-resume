@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dennis Chiira Resume</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    </head>
+
+    <body>
+        <div class="flex-container">
+            <div class="google-search">
+                <span><img
+                        src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png"
+                        alt="Google" class="google-logo"></span>
+            </div>
+            <form action="https://www.google.com/search" method="GET"
+                target="_blank" class="search-box">
+                <input type="text" name="q" value="Full Stack Developer">
+                <button
+                    style="background-color: white;border: none; outline: none;"
+                    type="submit" class="search-button"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+        <div class="search-options">
+            <a style="border-bottom: 1px solid blue;" href="#all" class="option"><i
+                    style="padding: 5px;" class="fas fa-search"></i>All</a>
+            <a style="border-bottom: 1px solid blue;" href="#" class="option"><i
+                    style="padding: 5px;" class="fas fa-images"></i>Images</a>
+            <a style="border-bottom: 1px solid blue;" href="#" class="option"><i
+                    style="padding: 5px;" class="fas fa-film"></i>Videos</a>
+            <a style="border-bottom: 1px solid blue;" href="#" class="option"><i
+                    style="padding: 5px;" class="fas fa-book"></i>Books</a>
+            <a style="border-bottom: 1px solid blue;" href="#" class="option"><i
+                    style="padding: 5px;" class="fas fa-newspaper"></i>News</a>
+        </div>
+        <div class="search-about">
+            <p style="font-size: 13px;color: green;">
+                Best match : <strong>Dennis Chiira</strong>
+            </p>
+        </div>
+
+        <div class="search-definition">
+            <p class>
+                A full-stack developer is a developer or engineer who can build
+                both the front end and the back end of a
+                website. The front end (the parts of a website a user sees and
+                interacts with) and the back end (the
+                behind-the-scenes data storage and processing) require different
+                skill sets.15 Jun 2023
+            </p>
+        </div>
+
+        <div class="search-results">
+            <div class="result">
+                <h2><a href="#" class="link">Full Stack Developer - Wikipedia</a></h2>
+                <p class="description">A full stack developer is an engineer who
+                    can handle all the work of databases,
+                    servers, systems engineering, and clients...</p>
+            </div>
+            <div class="result">
+                <h2><a href="#" class="link">What Does a Full Stack Developer
+                        Need to Learn?</a></h2>
+                <p class="description">A comprehensive guide to the skills,
+                    tools, and technologies needed to become a
+                    successful full stack developer...</p>
+            </div>
+        </div>
+
+        <div class="search-results">
+            <div class="result">
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <div class="accordion-header"
+                            onclick="toggleAccordion(1)">
+                            Section 1
+                            <i style="float: right;" class="fas fa-chevron-down" id="icon1"></i>
+                        </div>
+                        <div class="accordion-body" id="section1">
+                            <p>Content for Section 1</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header"
+                            onclick="toggleAccordion(2)">
+                            Section 2
+                            <i style="float: right;" class="fas fa-chevron-down" id="icon2"></i>
+                        </div>
+                        <div class="accordion-body" id="section2">
+                            <p>Content for Section 2</p>
+                        </div>
+                    </div>
+                    <div class="last-accordion">
+                        <div class="accordion-header"
+                            onclick="toggleAccordion(3)">
+                            Section 3
+                            <i style="float: right;" class="fas fa-chevron-down" id="icon3"></i>
+                        </div>
+                        <div class="accordion-body" id="section3">
+                            <p>Content for Section 3</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            function toggleAccordion(section) {
+                const accItem = document.getElementById(`section${section}`);
+                const icon = document.getElementById(`icon${section}`);
+                if (accItem.style.display === "none") {
+                    accItem.style.display = "block";
+                    icon.classList.remove("fa-chevron-down");
+                    icon.classList.add("fa-chevron-up");
+                } else {
+                    accItem.style.display = "none";
+                    icon.classList.remove("fa-chevron-up");
+                    icon.classList.add("fa-chevron-down");
+                }
+            }
+        </script>
+    </body>
+
+</html>

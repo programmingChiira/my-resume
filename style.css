@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Quicksand:wght@500&display=swap');
+
+* {
+    font-family: 'Arvo', serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.container {
+    max-width: 100%;
+    margin: 20px 6% 0;
+}
+
+.search-options {
+    background-color: #fff;
+    padding: 10px;
+    max-width: 70%;
+    margin: 20px auto 0;
+    display: flex;
+    justify-content: flex-start; /* Align options to the start */
+    overflow-x: auto;
+    white-space: nowrap; /* Prevent options from breaking to the next line */
+    border-bottom: 1px solid #ddd; /* Add a bottom border for a continuous line effect */
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #70757a;
+    margin: 0 10px;
+    border-bottom: 1px solid blue; /* Add a bottom border for the options */
+}
+
+.option i {
+    padding: 5px; /* Adjust padding for the icon */
+    margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+    .search-options {
+        flex-wrap: nowrap; /* Prevent options from wrapping to the next line */
+        justify-content: flex-start; /* Align options to the start in mobile format */
+        overflow-x: scroll; /* Add horizontal scroll in mobile format */
+    }
+
+    .option {
+        margin: 5px 10px;
+    }
+}
+
+.search-about {
+    background-color: #fff;
+    padding: 20px;
+    max-width: 70%;
+    margin: 20px auto 10px;
+    margin-top: -20px;
+}
+
+.search-definition {
+    background-color: #fff;
+    padding: 20px;
+    max-width: 70%;
+    margin: 20px auto 10px;
+    margin-top: -65px;
+}
+
+.search-results {
+    background-color: #fff;
+    padding: 20px;
+    max-width: 70%;
+    margin: 20px auto 10px;
+    margin-top: -40px;
+}
+
+.result {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #1a0dab;
+}
+
+.link {
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.description {
+    color: #545454;
+}
+
+.google-search {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+.search-box {
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 20px auto 0;
+}
+
+.search-box input[type="text"] {
+    border: none;
+    width: 98%;
+    padding: 5px;
+    outline: none;
+}
+
+.search-box input[type="submit"] {
+    border: none;
+    background-color: #f2f2f2;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.google-logo {
+    height: 35px;
+    margin-left: 10px;
+}
+
+.accordion {
+    max-width: 70%;
+}
+
+.accordion-item {
+    border-top: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.last-accordion {
+    border-top: 1px solid #ddd;
+    margin-top: 10px;
+}
+
+.accordion-header {
+    background-color: whitw;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.accordion-body {
+    padding: 10px;
+    display: none;
+}
