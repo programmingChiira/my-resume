@@ -150,7 +150,8 @@ h2 {
 
 .last-accordion {
     border-top: 1px solid #ddd;
-    margin-top: 10px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
 }
 
 .accordion-header {
