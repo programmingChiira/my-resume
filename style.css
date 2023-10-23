@@ -150,12 +150,11 @@ h2 {
 
 .last-accordion {
     border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
     margin-bottom: 10px;
 }
 
 .accordion-header {
-    background-color: whitw;
+    background-color: white;
     padding: 10px;
     cursor: pointer;
 }
