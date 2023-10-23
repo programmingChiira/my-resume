@@ -11,8 +11,8 @@ This project is a resume template based on the Google UI:
 
 <pre>
 ⛑ Let's connect:
-    ⚡️ Gmail: <a href="mailto:programmingchiira@gmail.com">Click Me!</a>
-    ⚡️ Twitter: <a target="_blank" href="https://twitter.com/DennisChiira">Click Me!</a>
-    ⚡️ LinkedIn: <a target="_blank" href="https://www.linkedin.com/in/dennis-chiira-77893716a/">Click Me!</a>
+    ⚡️ Gmail: <a href="mailto:programmingchiira@gmail.com">Gmail</a>
+    ⚡️ X: <a target="_blank" href="https://twitter.com/DennisChiira">X</a>
+    ⚡️ LinkedIn: <a target="_blank" href="https://www.linkedin.com/in/dennis-chiira-77893716a/">LinkedIn</a>
 </pre>
 Happy coding 🚀🚀
