@@ -1,7 +1,7 @@
 # my-resume
 👋 Hello
 
-This project is a resume template based on Google UI: 
+This project is a resume template based on the Google UI: 
 
 <pre>
 🎨 Where to find everything
