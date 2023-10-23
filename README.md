@@ -15,4 +15,4 @@ This project is a resume template based on Google UI:
     ⚡️ Twitter: <a target="_blank" href="https://twitter.com/DennisChiira">Click Me!</a>
     ⚡️ LinkedIn: <a target="_blank" href="https://www.linkedin.com/in/dennis-chiira-77893716a/">Click Me!</a>
 </pre>
-Happy coding 🚀🚀!
+Happy coding 🚀🚀
