@@ -82,7 +82,7 @@ html {
     position: relative;
 }
 
-.mySlides {
+.mySlides1 {
     display: none;
 }
 
@@ -124,7 +124,7 @@ html {
     top: 0;
 }
 
-.caption-container {
+.caption1-container {
     text-align: center;
     background-color: #222;
     padding: 2px 16px;
@@ -142,11 +142,11 @@ html {
     width: 16.66%;
 }
 
-.demo {
+.demo1 {
     opacity: 0.6;
 }
 
 .active,
-.demo:hover {
+.demo1:hover {
     opacity: 1;
 }
