@@ -600,6 +600,95 @@
                     </ul>
                 </div>
             </div>
+
+            <div class="d-flex">
+                <div style="width: 30px;">
+                </div>
+                <div style="width: 100%;">
+                    <h3 id="projects">
+                        <a style="color: rgb(26, 13, 171);" href="#">
+                            <i style="padding: 5px;" class="fas fa-folder-open"></i>
+                            Projects :
+                        </a>
+                    </h3>
+                    <div class="row" style="margin-bottom: 20px;padding: 20px;">
+                        <a
+                            style="background-color: rgba(224, 220, 220, 0.418); padding: 10px; border-radius: 5px;margin: 10px;"
+                            class="col-12 col-md-12 d-flex align-items-center"
+                            data-toggle="collapse" href="#collapseExample1"
+                            role="button" aria-expanded="false"
+                            aria-controls="collapseExample1">
+                            <img
+                                style="background-color: white; width: 60px; height: 60px; object-fit: cover; border-radius: 10px;"
+                                src="./images/ecomarde1.png" />
+                            <div style="margin-left: 6px;text-decoration: none;"
+                                class="flex-grow-1 justify-content-center">
+                                <span style="color: black;">tag1</span>
+                            </div>
+                            <div class="d-flex ms-auto">
+                                <span id="arrowIcon" onclick="toggleArrow()"
+                                    style="cursor: pointer;">
+                                    <i id="arrow" class="fas fa fa-angle-down"></i>
+                                </span>
+                            </div>
+                        </a>
+
+                        <div class="collapse" id="collapseExample1">
+                            <div style="border: none;"
+                                class="card card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod
+                                high life accusamus terry richardson ad squid.
+                                Nihil
+                                anim keffiyeh helvetica, craft beer labore wes
+                                anderson cred nesciunt sapiente ea proident.
+                            </div>
+                        </div>
+
+                        <a
+                            style="background-color: rgba(224, 220, 220, 0.418); padding: 10px; border-radius: 5px;margin: 10px;"
+                            class="col-12 col-md-12 d-flex align-items-center"
+                            data-toggle="collapse" href="#collapseExample1"
+                            role="button" aria-expanded="false"
+                            aria-controls="collapseExample1">
+                            <img
+                                style="background-color: white; width: 60px; height: 60px; object-fit: cover; border-radius: 10px;"
+                                src="./images/ecomarde1.png" />
+                            <div style="margin-left: 6px;text-decoration: none;"
+                                class="flex-grow-1 justify-content-center">
+                                <span style="color: black;">tag1</span>
+                            </div>
+                            <div class="d-flex ms-auto">
+                                <span id="arrowIcon" onclick="toggleArrow()"
+                                    style="cursor: pointer;">
+                                    <i id="arrow" class="fas fa fa-angle-down"></i>
+                                </span>
+                            </div>
+                        </a>
+
+                        <a
+                            style="background-color: rgba(224, 220, 220, 0.418); padding: 10px; border-radius: 5px;margin: 10px;"
+                            class="col-12 col-md-12 d-flex align-items-center"
+                            data-toggle="collapse" href="#collapseExample1"
+                            role="button" aria-expanded="false"
+                            aria-controls="collapseExample1">
+                            <img
+                                style="background-color: white; width: 60px; height: 60px; object-fit: cover; border-radius: 10px;"
+                                src="./images/ecomarde1.png" />
+                            <div style="margin-left: 6px;text-decoration: none;"
+                                class="flex-grow-1 justify-content-center">
+                                <span style="color: black;">tag1</span>
+                            </div>
+                            <div class="d-flex ms-auto">
+                                <span id="arrowIcon" onclick="toggleArrow()"
+                                    style="cursor: pointer;">
+                                    <i id="arrow" class="fas fa fa-angle-down"></i>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
         <hr />
@@ -617,20 +706,17 @@
             src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 
         <script>
-                function toggleAccordion(section) {
-                    const accItem = document.getElementById(`section${section}`);
-                    const icon = document.getElementById(`icon${section}`);
-                    if (accItem.style.display === "none") {
-                        accItem.style.display = "block";
-                        icon.classList.remove("fa-chevron-down");
-                        icon.classList.add("fa-chevron-up");
-                    } else {
-                        accItem.style.display = "none";
-                        icon.classList.remove("fa-chevron-up");
-                        icon.classList.add("fa-chevron-down");
-                    }
+            function toggleArrow() {
+                var arrowIcon = document.getElementById('arrow');
+                if (arrowIcon.classList.contains('fa fa-angle-down')) {
+                    arrowIcon.classList.remove('fa fa-angle-down');
+                    arrowIcon.classList.add('fa fa-angle-up');
+                } else {
+                    arrowIcon.classList.remove('fa fa-angle-up');
+                    arrowIcon.classList.add('fa fa-angle-down');
                 }
-            </script>
+            }
+        </script>
     </body>
 
 </html>
