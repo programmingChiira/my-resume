@@ -150,3 +150,8 @@ html {
 .demo1:hover {
     opacity: 1;
 }
+@media print {
+    .print-button {
+        display: none;
+    }
+}
